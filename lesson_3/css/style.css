@@ -1,0 +1,49 @@
+ @import url("reset.css");
+
+ .main-title{
+    color: crimson;
+ }
+
+ p{
+    color: aqua;
+ }
+[class*="ink"]{
+    color: darkgreen;
+}
+#koroliov{
+    color: goldenrod;
+}
+ .item-wraper p{
+    color: brown;
+ }
+ .item-wraper a {
+    color: blue;
+ }
+ 
+ h2.item-title{
+    color: darkblue;
+ }
+.item-title.even-title{
+    color: cadetblue;
+}
+.content-wraper * {
+    color: chartreuse;
+}
+.content-wraper > span {
+    color: deeppink;
+}
+.text ~ span{
+    color: darkorange;
+}
+.text + span{
+    color: blue;
+}
+.content-wraper .main-text {
+    color: black;
+}
+.link-wraper  li {
+    color: chartreuse;
+}
+.link-wraper h3 {
+    color: blue;
+}
