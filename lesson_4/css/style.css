@@ -79,7 +79,7 @@ text-decoration-color: cornflowerblue;
 }
 .main-title{
    font-family: "Proxima Nova", sans-serif;
-   font-weight: 400;
+   font-weight: 600;
    font-style: normal;
    font-size: 40px;
    color: #2b2929;
@@ -101,7 +101,7 @@ text-decoration-color: cornflowerblue;
    font-family: "Proxima Nova", sans-serif;
    font-size: 40px;
    font-style: normal;
-   font-weight: 400;
+   font-weight: 600;
    color: #2b2929;
    letter-spacing: 0;
    line-height: 120%;
@@ -116,11 +116,11 @@ text-decoration-color: cornflowerblue;
    line-height: 187.5%;
    letter-spacing: 0;
 }
-.content-block h3{
+.content-block > h3{
    font-family: "Proxima Nova", sans-serif;
    font-size: 20px;
    font-style: normal;
-   font-weight: 400;
+   font-weight: 600;
    color: #2b2929;
    line-height: 140%;
    letter-spacing: 0;
