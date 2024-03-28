@@ -1,0 +1,234 @@
+ @import url("fonts.css");
+ /* Google fonts */
+ /* @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap'); */
+ 
+  
+
+ /* @import url(https://fonts.googleapis.com/css?family=Kaisei+Tokumin:regular,500,700,800); */
+
+ 
+
+ @import url("reset.css");
+
+
+ /* body{
+    font-family: "Kaisei Tokumin";
+    font-weight: 500;
+    font-size: 20px;
+ } */
+
+  body {
+     font-family: "Proxima Nova", sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+   color: rgba(43, 41, 41, 1)
+     
+  }
+  .container {
+   max-width: 1100px;
+      padding: 0 15px;
+      margin: 0 auto;
+  }
+ 
+  
+.header li {
+   display: inline-block;
+   margin: 0 40px;
+   padding-top: 40px;
+   color: cadetblue;
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 120%;
+   letter-spacing: 2px;
+}
+.header a {
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-color: cornflowerblue;
+}
+
+h1 {
+   margin-bottom: 30px;
+   text-align: center;
+}
+.training-block {
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.items {
+ font-size: 0;
+ margin-left: -15px;
+ margin-right: -15px;
+}
+
+.item {
+   display: inline-block;
+   width: 25%;
+   margin-bottom: 10px;
+   padding-left: 15px;
+   padding-right: 15px;
+   vertical-align: middle;
+   overflow: hidden;
+}
+.training-block p {
+   width: 300px;
+   height: 200px;
+   overflow: auto;
+}
+.content {
+font-size: 20px;
+   text-align: center;
+   padding: 20px;
+   background-color: aquamarine;
+}
+
+
+.content-section{
+   padding-top: 70px;
+   padding-bottom: 70px;
+
+}
+.content-section > h2 {
+   font-family: "Proxima Nova", sans-serif;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 600;
+   letter-spacing: 0;
+   line-height: 120%;
+   margin-bottom: 40px;
+  
+}
+.content-section img{
+   max-width: 100%;
+   margin-bottom: 40px;
+}
+.content-section p,
+.content-section li{
+   font-family: "Proxima Nova", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 187.5%;
+   letter-spacing: 0;
+}
+ li:not(:last-child){
+   margin-bottom: 20px;
+}
+.content-section li {
+   padding-left: 47px;
+}
+.content-section > h3{
+   font-family: "Proxima Nova", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 140%;
+   letter-spacing: 0;
+   margin-bottom: 35px;
+}
+
+.first-text {
+   margin-bottom: 15px;
+}
+.second-text {
+   margin-bottom: 40px;
+}
+.content-section ul {
+   margin-bottom: 40px;
+}
+
+.benefits-section {
+   padding-top: 70px;
+padding-bottom: 70px;
+background-color: rgba(248, 248, 248, 1);
+}
+
+.benefits-section h2 {
+font-weight: 600;
+   font-size: 40px;
+   line-height: 120%;
+   text-align: center;
+}
+.benefits-section h3 {
+font-weight: 600;
+   font-size: 26px;
+   line-height: 131%;
+   margin-bottom: 20px;
+}
+.benefits-section p{
+font-weight: 400;
+   font-size: 16px;
+   line-height: 187%;
+}
+.benefits-section ul {
+   font-size: 0;
+   margin: 0 -15px;
+   
+}
+.benefits-section li {
+   display: inline-block;
+   width: 25%;
+   padding-left: 15px;
+   padding-top: 15px;
+   vertical-align: top;
+   text-align: center;
+}
+.benefits-section img {
+   margin-bottom: 20px;
+}
+.products-container {
+max-width: 1320px;
+   padding: 0 15px;
+   margin: 0 auto;
+}
+.products-section {
+   background-color: rgba(30, 40, 50, 0.05);
+   padding-top: 100px;
+   padding-bottom: 100px;
+}
+
+.products-section h2 {
+font-family: 'Roboto', sans-serif;
+   font-size: 50px;
+      text-transform: capitalize;
+      text-align: center;
+      color: rgba(0, 0, 0, 1);
+}
+.products-section ul {
+font-size: 0;
+   margin: 0 -24px;
+}
+.products-section li {
+   display: inline-block;
+    width: 16.666%;
+      padding-left: 24px;
+      padding-top: 24px;
+      /* vertical-align: top;
+      text-align: center; */
+}
+.footer {
+      padding-top: 40px;
+}
+h4 {
+font-size: 25px;
+color: cornflowerblue;
+text-align: center;
+text-transform: capitalize;
+line-height: 180%;
+text-shadow: 3px 3px 5px burlywood; 
+}
+.footer li {
+display: inline-block;
+   width: 33.333%;
+   padding-left: 15px;
+   padding-top: 15px;
+   vertical-align: top;
+   text-align: center;
+}
+.footer ul {
+   font-size: 0;
+   margin: 0 -15px;
+}
+
+ 

@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaProMedium.woff2") format("woff2"),
+        url("../fonts/BanderaProMedium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Bandera Pro";
+    src: url("../fonts/BanderaPro-Bold.woff2") format("woff2"),
+        url("../fonts/BanderaPro-Bold.woff") format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNova-Regular.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Regular.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url("../fonts/ProximaNova-Semibold.woff2") format("woff2"),
+        url("../fonts/ProximaNova-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ropa Mix Pro';
+    src: url('../fonts/RopaMixPro-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/RopaMixPro-ExtraBoldItalic.woff') format('woff');
+    font-weight: 800;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Ropa Mix Pro';
+    src: url('../fonts/RopaMixPro-Italic.woff2') format('woff2'),
+        url('../fonts/RopaMixPro-Italic.woff') format('woff');
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+    url('../fonts/Roboto-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
