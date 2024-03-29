@@ -112,7 +112,7 @@ font-size: 20px;
    line-height: 187.5%;
    letter-spacing: 0;
 }
- li:not(:last-child){
+.content-section li:not(:last-child){
    margin-bottom: 20px;
 }
 .content-section li {
@@ -149,6 +149,7 @@ font-weight: 600;
    font-size: 40px;
    line-height: 120%;
    text-align: center;
+   margin-bottom: 40px;
 }
 .benefits-section h3 {
 font-weight: 600;
@@ -170,12 +171,13 @@ font-weight: 400;
    display: inline-block;
    width: 25%;
    padding-left: 15px;
-   padding-top: 15px;
+   padding-right: 15px;
    vertical-align: top;
    text-align: center;
 }
 .benefits-section img {
    margin-bottom: 20px;
+   max-width: 170px;
 }
 .products-container {
 max-width: 1320px;
@@ -194,6 +196,7 @@ font-family: 'Roboto', sans-serif;
       text-transform: capitalize;
       text-align: center;
       color: rgba(0, 0, 0, 1);
+      margin-bottom: 60px;
 }
 .products-section ul {
 font-size: 0;
@@ -203,9 +206,12 @@ font-size: 0;
    display: inline-block;
     width: 16.666%;
       padding-left: 24px;
-      padding-top: 24px;
+      padding-right: 24px;
       /* vertical-align: top;
       text-align: center; */
+}
+.products-section img {
+   max-width: 200px;
 }
 .footer {
       padding-top: 40px;
@@ -222,7 +228,7 @@ text-shadow: 3px 3px 5px burlywood;
 display: inline-block;
    width: 33.333%;
    padding-left: 15px;
-   padding-top: 15px;
+   padding-right: 15px;
    vertical-align: top;
    text-align: center;
 }
