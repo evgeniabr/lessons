@@ -1,0 +1,315 @@
+ @import url("fonts.css");
+ /* Google fonts */
+ /* @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap'); */
+ 
+  
+
+ /* @import url(https://fonts.googleapis.com/css?family=Kaisei+Tokumin:regular,500,700,800); */
+
+ 
+
+ @import url("reset.css");
+
+
+ /* body{
+    font-family: "Kaisei Tokumin";
+    font-weight: 500;
+    font-size: 20px;
+ } */
+
+  body {
+     font-family: "Proxima Nova", sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+   color: rgba(43, 41, 41, 1)
+     
+  }
+  .container {
+   max-width: 1100px;
+      padding: 0 15px;
+      margin: 0 auto;
+  }
+ .page {
+   padding-top: 20px;
+ }
+  
+.header li {
+   display: inline-block;
+   margin: 0 40px;
+   padding-top: 40px;
+   color: cadetblue;
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 120%;
+   letter-spacing: 2px;
+}
+.header a {
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-color: cornflowerblue;
+}
+.header ul {
+   margin-bottom: 30px;
+}
+
+h1 {
+   margin-bottom: 30px;
+   text-align: center;
+}
+
+.content-section{
+   padding-top: 70px;
+   padding-bottom: 70px;
+
+}
+.content-section > h2 {
+   font-family: "Proxima Nova", sans-serif;
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 600;
+   letter-spacing: 0;
+   line-height: 120%;
+   margin-bottom: 40px;
+  
+}
+.content-section img{
+   max-width: 100%;
+   margin-bottom: 40px;
+   border-radius: 8px;
+}
+.content-section p,
+.content-section li{
+   font-family: "Proxima Nova", sans-serif;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 187.5%;
+   letter-spacing: 0;
+}
+.content-section li:not(:last-child){
+   margin-bottom: 20px;
+}
+.content-section li {
+   padding-left: 47px;
+   background: url(../img/mark.svg) 0 0 / 32px no-repeat;
+}
+.content-section > h3{
+   font-family: "Proxima Nova", sans-serif;
+   font-size: 20px;
+   font-style: normal;
+   max-width: 600px;
+   line-height: 140%;
+   letter-spacing: 0;
+   margin-bottom: 35px;
+}
+
+.first-text {
+   margin-bottom: 15px;
+}
+.second-text {
+   margin-bottom: 40px;
+}
+.content-section ul {
+   margin-bottom: 40px;
+}
+
+
+.collections-section {
+background: rgba(0, 0, 0, 0.1) url(../img/flower-pattern.png) 0  80% / contain no-repeat;
+padding-top: 225px;
+padding-bottom: 60px;
+}
+.collections-container {
+   max-width: 1320px;
+      padding: 0 15px;
+      margin: 0 auto;
+   
+    
+}
+.collections-wrap{
+   font-size: 0;
+   margin: 0 -49px;
+}
+.collections-content-wrap {
+   display: inline-block;
+   padding-right: 49px;
+      padding-left: 49px;
+}
+.content-box h2{
+   font-weight: 300;
+      font-size: 74px;
+      line-height: 120%;
+      text-transform: capitalize;
+      color: #000;
+      margin-bottom: 52px;
+}
+.content-box{
+   display: inline-block;
+max-width: 686px;
+vertical-align: middle;
+font-family: 'Roboto', sans-serif;
+
+
+
+}
+.content-box p{
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 183%;
+      text-transform: capitalize;
+      color: #000;
+      margin-bottom: 66px;
+      
+}
+
+   .img-box{
+      display: inline-block;
+      padding-right: 49px;
+      padding-left: 49px;
+   }
+   .img-wraper{
+
+border: 2px solid rgba(0, 0, 0, 0.25);
+border-radius: 160px 0;
+
+
+
+   }
+.collections-section img{
+   max-width: 100%;
+   display: inline-block;
+   border-radius: 160px 0;
+   margin: -20px 18px 20px -18px;
+vertical-align: middle;
+}
+.button{
+   background: #1e2832 url("../img/button-icon.svg") 11.7% 50%/ 30px no-repeat;
+   font-weight: 400;
+   font-size: 29px;
+   text-transform: capitalize;
+   color: #fff;;
+   padding: 19px 64px;
+}
+.eduplay-section{
+   background: url(../img/eduplay-bg.jpg) 0 0/cover no-repeat, linear-gradient(rgba(0, 196, 204, 1) 0%, rgba(139, 61, 255, 1) 100%);
+}
+.eduplay-container{
+  max-width: 1310px;
+      padding: 0 15px;
+      margin: 0 auto;
+}
+.eduplay-wrap{
+  margin-left: -66.5px;
+  margin-right: -66.5px;
+   font-size: 0;
+}
+.content-wrap{
+   display: inline-block;
+  padding-left: 66.5px;
+  padding-right: 66.5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 16px;
+   vertical-align: middle;
+}
+.content{
+   max-width: 600px;
+      font-family: 'Quicksand', sans-serif;
+     
+}
+.eduplay-button{
+   font-weight: 700;
+      font-size: 16px;
+      line-height: 156%;
+      color: #0d1216;
+      border-radius: 8px;
+         padding: 11px  36.5px;
+         background-color: #fff;
+         background: #fff url(../img/hat-svg.png) 5.5% 50%/24px no-repeat;
+}
+.content h2{
+font-weight: 700;
+   font-size: 40px;
+   line-height: 120%;
+   color: #fff;
+   margin-bottom: 24px;
+}
+.content p{
+   font-weight: 500;
+      font-size: 20px;
+      line-height: 160%;
+      color: #fff;
+      margin-bottom: 24px;
+}
+.img-wrap{
+display: inline-block;
+max-width: 100%;
+   padding: 0 66.5px;
+   vertical-align: middle;
+}
+
+.footer {
+      padding-top: 40px;
+}
+h4 {
+font-size: 25px;
+color: cornflowerblue;
+text-align: center;
+text-transform: capitalize;
+line-height: 180%;
+text-shadow: 3px 3px 5px burlywood; 
+margin-bottom: 30px;
+}
+.footer li {
+display: inline-block;
+   width: 33.333%;
+   padding-left: 15px;
+   padding-right: 15px;
+   vertical-align: top;
+   text-align: center;
+}
+.footer ul {
+   font-size: 0;
+   margin: 0 -15px;
+}
+.training-block {
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
+.block{
+background-color: aqua;
+border: 5px dotted blue;
+margin-bottom: 20px;
+/* outline: 8px solid yellowgreen; */
+border-radius: 20px 5px 30px 10px;
+}
+.inline{
+background-color: chartreuse;
+border: 10px double green;
+line-height: 150%;
+/* outline: 8px solid yellowgreen; */
+border-radius: 40px;
+box-shadow: 10px 5px 8px 5px yellowgreen;
+}
+.inline-block {
+background-color: blanchedalmond;
+   /* border: 5px dashed red;  */
+   border-top: 3px solid red;
+   border-right: 6px dotted blue;
+   border-bottom: 5px double green;
+   border-left: 8px dashed yellow;
+/* outline: 8px solid yellowgreen;
+      outline-offset: 5px; */
+      border-radius: 30px;
+      margin-bottom: 20px;
+
+} 
+.circle{
+   width: 200px;
+   height: 200px;
+   background-color: coral;
+   border-radius: 50%;
+box-shadow: inset 7px 7px 5.6px   rgba(186, 8, 8, 0.353);
+   opacity: 0.5;
+}
