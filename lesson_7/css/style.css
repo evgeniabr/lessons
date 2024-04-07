@@ -1,0 +1,473 @@
+ @import url("fonts.css");
+ /* Google fonts */
+ /* @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700&display=swap'); */
+ 
+  
+
+ /* @import url(https://fonts.googleapis.com/css?family=Kaisei+Tokumin:regular,500,700,800); */
+
+ 
+
+ @import url("reset.css");
+
+
+ /* body{
+    font-family: "Kaisei Tokumin";
+    font-weight: 500;
+    font-size: 20px;
+ } */
+
+  body {
+     font-family: "Proxima Nova", sans-serif;
+     font-weight: 400;
+     font-size: 20px;
+   color: rgba(43, 41, 41, 1)
+     
+  }
+  .container {
+   max-width: 1100px;
+      padding: 0 15px;
+      margin: 0 auto;
+  }
+ .page {
+   padding-top: 20px;
+ }
+  
+.header li {
+   display: inline-block;
+   margin: 0 40px;
+   padding-top: 40px;
+   color: cadetblue;
+   text-align: center;
+   text-transform: uppercase;
+   line-height: 120%;
+   letter-spacing: 2px;
+}
+.header a {
+text-decoration: underline;
+text-decoration-style: solid;
+text-decoration-color: cornflowerblue;
+}
+.header ul {
+   margin-bottom: 30px;
+}
+
+h1 {
+   margin-bottom: 30px;
+   text-align: center;
+   font-size: 25px;
+      color: cornflowerblue;
+      text-align: center;
+      text-transform: uppercase;
+      line-height: 180%;
+      text-shadow: 3px 3px 5px burlywood;
+}
+.training-block {
+   text-align: center;
+}
+.training-block > * {
+   margin-bottom: 30px;
+}
+
+.training-block h3 {
+font-size: 40px;
+   font-style: normal;
+   font-weight: 600;
+   letter-spacing: 0;
+   line-height: 120%;
+}
+
+.training-item {
+   width: 150px;
+   height: 40px;
+   border-radius: 10%;
+   background-color: aquamarine;
+   display: inline-block;
+   color: #000;
+}
+.training-item:hover,
+.training-item:focus
+{
+   color: white;
+   cursor: pointer;
+   background-color: rgb(66, 157, 128);
+   border: 1px snow solid;
+      
+}
+.training-item:active{
+  
+background-color: rgb(55, 90, 79);
+      
+}
+
+.training-block a:visited {
+color: #437232;
+  
+
+}
+.training-item:not(:last-child){
+   margin-right: 30px;
+  
+}
+
+
+.training-block p{
+   font-weight: 600;
+      font-style: normal;
+   
+      line-height: 140%;
+}
+.list li {
+   display: inline-block;
+   text-align: center;
+   width: 50px;
+   height: 50px;
+   border-radius: 50%;
+   padding: 10px;
+   border: 1px black solid;
+}
+.list-item-1:last-child{
+   background-color: #42ff00;
+}
+.list-item-2:first-child {
+   background-color: #42ff00;
+}
+.list-item-3:not(:last-child){
+   background-color: #42ff00;
+}
+.list-item-4:nth-child(3n + 2) {
+   background-color: #42ff00;
+}
+.training-block > * :last-child {
+   margin-bottom: 0;
+}
+.content-section{
+   padding-top: 70px;
+   padding-bottom: 70px;
+
+}
+.content-section > * {
+   margin-bottom: 40px;
+}
+.content-section > *:last-child {
+   margin-bottom: 0;
+}
+.content-section > h2 {
+   font-size: 40px;
+   font-style: normal;
+   font-weight: 600;
+   letter-spacing: 0;
+   line-height: 120%;
+   /* margin-bottom: 40px; */
+  
+}
+.content-section img{
+   max-width: 100%;
+   /* margin-bottom: 40px; */
+   border-radius: 8px;
+}
+.content-section p,
+.content-section li{
+  
+   font-size: 16px;
+   font-style: normal;
+   line-height: 187.5%;
+   letter-spacing: 0;
+}
+.content-section li:not(:last-child){
+   margin-bottom: 20px;
+}
+.content-section li {
+  padding-left: 47px;
+   background: url(../img/mark.svg) 0 0 / 32px no-repeat;
+}
+/* .content-section li::before{
+   content: "";
+   width: 32px;
+   height: 32px;
+   background: url(../img/mark.svg) 0 0 / 100% no-repeat;
+   vertical-align: middle;
+   margin-right: 15px;
+} */
+.content-section > h3{
+font-weight: 600;
+   font-style: normal;
+   
+   line-height: 140%;
+   letter-spacing: 0;
+   margin-bottom: 35px;
+}
+.text p:not(:last-child) {
+   margin-bottom: 15px;
+}
+
+.about-me-section {
+   padding-top: 120px;
+   padding-bottom: 120px;
+   background: url(../img/bg.png);
+   
+}
+
+.about-container {
+   max-width: 1150px;
+      padding: 0 15px;
+      margin: 0 auto;
+}
+.content-wrap > * {
+   margin-bottom: 20px;
+}
+.content-wrap > *:last-child {
+   margin-bottom: 0;
+}
+
+.about-me-section h2{
+   font-family: "Exo", sans-serif;
+display: inline-block;
+   font-weight: 700;
+      font-size: 60px;
+      line-height: 117%;
+      text-transform: uppercase;
+      color: #fff;
+      
+}
+.about-me-section h2::after{
+   content: "";
+   display: block;
+  height: 1px;
+ width:  133%;
+background: linear-gradient(90deg, rgba(255, 0, 0, 1) 0%, rgba(66, 255, 0, 1) 50%, rgba(36, 0, 255, 1) 100%);
+margin-top: 20px;
+margin-left: -17%;
+text-align: center;
+
+}
+.about-me-section p{
+   font-family: "Exo", sans-serif;
+   font-weight: 400;
+      font-size: 18px;
+      line-height: 222%;
+      letter-spacing: -0.02em;
+      text-transform: capitalize;
+      text-align: center;
+      color: #fff;
+}
+.content-wrap{
+   max-width: 992px;
+   text-align: center;
+   margin-bottom: 60px;
+}
+.about-me-section li{
+   display: inline-block;
+   font-family: 'Orbitron', sans-serif;
+font-weight: 500;
+   font-size: 20px;
+   line-height: 125%;
+   text-transform: capitalize;
+   color: #fff;
+   text-align: center;
+   
+}
+.about-me-section li:not(:last-child){
+margin-right: 60px;
+}
+.about-me-section li::after{
+   content: "";
+   width: 10px;
+   height: 11px;
+   border-radius: 100%;
+   background: linear-gradient(90deg, #f00 0%, #42ff00 48.9%, #250af5 98%, #2400ff 100%);
+ margin-left: 60px;
+}
+.contact-section{
+   padding-top: 80px;
+      padding-bottom: 111px;
+      background: url(../img/bg.png);
+}
+.contact-container{
+   max-width: 990px;
+      padding: 0 15px;
+      margin: 0 auto;
+}
+.contact-section li{
+   font-family: "Exo", sans-serif;
+   font-weight: 400;
+      font-size: 20px;
+      line-height: 100%;
+      letter-spacing: -0.02em;
+   text-transform: capitalize;
+      color: #fff;
+      display: inline-block;
+}
+.contact-section li:last-child{
+      text-transform: lowercase;
+}
+.contact-section li:not(:last-child){
+   margin-right: 80px;
+}
+
+.contact-section li:first-child:before{
+   content: "";
+   width: 20px;
+   height: 20px;
+   background: url(../img/call.svg);
+   margin-right: 20px;
+   vertical-align: middle;
+}
+
+.contact-section li:nth-child(2):before {
+   content: "";
+   width: 20px;
+   height: 20px;
+   background: url(../img/location.svg);
+   margin-right: 20px;
+  
+}
+.contact-section li:last-child:before {
+   content: "";
+   width: 20px;
+   height: 16px;
+   background: url(../img/email.svg);
+   margin-right: 20px;
+   vertical-align: middle;
+}
+.game-section{
+   padding-top: 70px;
+   padding-bottom: 70px;
+   background: url(../img/game-bg.jpg);
+}
+.game-container{
+   max-width: 1100px;
+      padding: 0 15px;
+      margin: 0 auto;
+}
+
+.game-wrap{
+text-align: center;
+
+}
+.game-wrap h2{
+   font-weight: 600;
+text-shadow: 2px 2px 5px #000, 5px -2px 10px yellow;
+
+}
+
+.game-container ul{
+   display: inline-block;
+  
+   
+}
+.step-1{
+   width: 30px;
+   height: 100px;
+   background-color: yellow;
+}
+.step-2 {
+   width: 800px;
+   height: 30px;
+   background-color: yellow;
+   visibility: hidden;
+ 
+} 
+
+.step-1:hover  + .step-2,
+.step-2:hover
+{
+   visibility: visible;
+  
+}
+
+.step-3 {
+  width: 30px;
+   height: 100px;
+   background-color: yellow;
+   margin-left: 770px;
+visibility: hidden;
+}
+
+.step-2:hover + .step-3,
+.step-3:hover {
+   visibility: visible;
+}
+.step-4 {
+   width: 800px;
+      height: 30px;
+      background-color: yellow;
+      visibility: hidden;
+      
+}
+.step-3:hover+.step-4,
+.step-4:hover {
+   visibility: visible;
+}
+
+.step-5 {
+   width: 20px;
+   height: 100px;
+   background-color: yellow;
+   visibility: hidden;
+}
+
+.step-4:hover + .step-5,
+.step-5:hover {
+   visibility: visible;
+
+}
+
+.step-6 {
+   width: 900px;
+   height: 20px;
+   background-color: yellow;
+   visibility: hidden;
+
+}
+.step-5:hover + .step-6,
+.step-6:hover {
+   visibility: visible;
+}
+.step-7 {
+   width: 20px;
+   height: 100px;
+   background-color: rgb(255, 127, 193);
+   visibility: hidden;
+   margin-left: 880px;
+}
+.step-7::after{
+   content: "Вітаю, ти пройшов гру!!!";
+   margin-left: -300px;
+  margin-top: 120px;
+}
+.step-6:hover + .step-7,
+.step-7:hover {
+   visibility: visible;
+}
+
+.footer {
+      padding-top: 40px;
+}
+.footer h4 {
+font-size: 25px;
+color: cornflowerblue;
+text-align: center;
+text-transform: capitalize;
+line-height: 180%;
+text-shadow: 3px 3px 5px burlywood; 
+margin-bottom: 30px;
+}
+
+.footer li {
+display: inline-block;
+   width: 33.333%;
+   padding-left: 15px;
+   padding-right: 15px;
+   vertical-align: top;
+   
+}
+.footer ul {
+   font-size: 0;
+   margin: 0 -15px;
+}
+.training-block {
+   max-width: 1100px;
+   margin: 0 auto;
+   padding: 0 15px;
+}
