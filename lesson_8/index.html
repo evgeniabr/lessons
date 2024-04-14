@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Урок 8</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Це шапка сторінки -->
+      <div class="container">
+        <p>Урок №8</p>
+      </div>
+
+    </header>
+    <main class="page ">
+      <!-- Це головна частина сторінки -->
+      <div class="container">
+        <h1 id="webgrafika">Веб графіка, формати зображень</h1>
+        <h2>Іконки</h2>
+        <ul class="list-icons">
+          <li> - іконка, векторне зображення, svg</li>
+          <li> - іконка, векторне зображення, svg</li>
+          <li> - іконка, векторне зображення, svg</li>
+        </ul>
+        <h2>Контентні зображення</h2>
+        <ul class="list-img">
+          <li> <img src="./img/content-img/img.webp"
+              alt="зображення руки з гаманцем, грошовими купюрами, монетами і платіжними картками">
+            <p> -
+              Контентне зображення, растрове, webp</p></li>
+          <li> <img src="./img/content-img/pay-1.svg"
+              alt="зображення іконки терміналу"> <p> - Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/pay-2.svg"
+              alt="зображення іконки платіжної картки">
+            <p> - Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/pay-3.svg"
+              alt="зображення іконки безготівкового розрахунку">
+            <p> - Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/pay-4.svg"
+              alt="зображення іконки післясплати">
+            <p> - Контентне
+              зображення, векторне, svg</p></li><li> <img
+              src="./img/content-img/pay-5.svg"
+              alt="зображення іконки карти України"> <p> -
+              Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/pay-6.svg"
+              alt="зображення іконки кретиту або розстрочки">
+            <p> - Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/pay-7.svg"
+              alt="зображення іконки передплати">
+            <p> - Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/preim-1.svg"
+              alt="зображення іконки безкоштовної доставки"> <p> - Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/preim-2.svg"
+              alt="зображення іконки безкоштовної збірки"> <p> - Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/preim-3.svg"
+              alt="зображення іконки післягарантійного обслуговування"> <p> -
+              Контентне
+              зображення, векторне, svg</p></li>
+          <li> <img src="./img/content-img/preim-4.svg"
+              alt="зображення іконки знижки клієнтам"> <p> - Контентне
+              зображення, векторне, svg</p></li>
+        </ul>
+        <h2>Використання тегу picture для додавання картинок з різним
+          розширенням</h2>
+        <picture>
+          <source
+            srcset="./img/content-img/sofa-2x.webp 2x, ./img/content-img/sofa-3x.webp 3x">
+          <img src="./img/content-img/sofa.webp" alt="зображення дивану">
+        </picture>
+        <picture>
+          <source
+            srcset="./img/content-img/bed-2x.webp 2x, ./img/content-img/bed-3x.webp 3x">
+          <img src="./img/content-img/bed.webp" alt="зображення ліжка">
+        </picture>
+        <picture>
+          <source
+            srcset="./img/content-img/wardrope-2x.webp 2x, ./img/content-img/wardrope-3x.webp 3x">
+          <img src="./img/content-img/wardrope.webp" alt="зображення шафи">
+        </picture>
+
+      </div>
+    </main>
+    <footer class="footer">
+      <!-- Це підвал сторінки -->
+
+      <div class="container">
+        <a href="#webgrafika">Повернутися нагору</a>
+      </div>
+    </footer>
+  </body>
+</html>
